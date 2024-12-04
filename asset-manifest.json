@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/trident/static/css/main.1c08f96d.css",
+    "main.js": "/trident/static/js/main.93a23270.js",
+    "static/js/453.1d5681a5.chunk.js": "/trident/static/js/453.1d5681a5.chunk.js",
+    "static/media/desert.jpg": "/trident/static/media/desert.aaebd719c5ecc5b7d924.jpg",
+    "static/media/construction.jpg": "/trident/static/media/construction.b8bd34ac88df084ac1e6.jpg",
+    "static/media/kj.png": "/trident/static/media/kj.9efa8a325e0fedbf0cc8.png",
+    "static/media/architecture.jpg": "/trident/static/media/architecture.c538b65ccdb2a9e7adc8.jpg",
+    "static/media/national.jpg": "/trident/static/media/national.87a9dcefb37ac0c9be1c.jpg",
+    "static/media/utr.png": "/trident/static/media/utr.137b53b968c74c857766.png",
+    "static/media/abc.png": "/trident/static/media/abc.223cf4ab203a67810693.png",
+    "static/media/reuters.png": "/trident/static/media/reuters.01cb632c89760b839d43.png",
+    "static/media/gulfnews.png": "/trident/static/media/gulfnews.aba997270fc0f92cca4d.png",
+    "static/media/bbc.png": "/trident/static/media/bbc.98c705bad5417a17ac2d.png",
+    "index.html": "/trident/index.html",
+    "main.1c08f96d.css.map": "/trident/static/css/main.1c08f96d.css.map",
+    "main.93a23270.js.map": "/trident/static/js/main.93a23270.js.map",
+    "453.1d5681a5.chunk.js.map": "/trident/static/js/453.1d5681a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c08f96d.css",
+    "static/js/main.93a23270.js"
+  ]
+}
