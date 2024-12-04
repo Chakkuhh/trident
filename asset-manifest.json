@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trident/static/css/main.1c08f96d.css",
-    "main.js": "/trident/static/js/main.93a23270.js",
+    "main.js": "/trident/static/js/main.ffd55046.js",
     "static/js/453.1d5681a5.chunk.js": "/trident/static/js/453.1d5681a5.chunk.js",
     "static/media/desert.jpg": "/trident/static/media/desert.aaebd719c5ecc5b7d924.jpg",
     "static/media/construction.jpg": "/trident/static/media/construction.b8bd34ac88df084ac1e6.jpg",
@@ -15,11 +15,11 @@
     "static/media/bbc.png": "/trident/static/media/bbc.98c705bad5417a17ac2d.png",
     "index.html": "/trident/index.html",
     "main.1c08f96d.css.map": "/trident/static/css/main.1c08f96d.css.map",
-    "main.93a23270.js.map": "/trident/static/js/main.93a23270.js.map",
+    "main.ffd55046.js.map": "/trident/static/js/main.ffd55046.js.map",
     "453.1d5681a5.chunk.js.map": "/trident/static/js/453.1d5681a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c08f96d.css",
-    "static/js/main.93a23270.js"
+    "static/js/main.ffd55046.js"
   ]
 }
