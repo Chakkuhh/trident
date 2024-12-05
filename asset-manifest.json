@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trident/static/css/main.b8f15e96.css",
-    "main.js": "/trident/static/js/main.6a7f4943.js",
+    "main.css": "/trident/static/css/main.8ad142c7.css",
+    "main.js": "/trident/static/js/main.61cce342.js",
     "static/js/453.1d5681a5.chunk.js": "/trident/static/js/453.1d5681a5.chunk.js",
     "static/media/modern.jpg": "/trident/static/media/modern.0205a1aa6e7214f33e93.jpg",
     "static/media/construction.jpg": "/trident/static/media/construction.b8bd34ac88df084ac1e6.jpg",
@@ -18,12 +18,12 @@
     "static/media/gulfnews.png": "/trident/static/media/gulfnews.aba997270fc0f92cca4d.png",
     "static/media/bbc.png": "/trident/static/media/bbc.98c705bad5417a17ac2d.png",
     "index.html": "/trident/index.html",
-    "main.b8f15e96.css.map": "/trident/static/css/main.b8f15e96.css.map",
-    "main.6a7f4943.js.map": "/trident/static/js/main.6a7f4943.js.map",
+    "main.8ad142c7.css.map": "/trident/static/css/main.8ad142c7.css.map",
+    "main.61cce342.js.map": "/trident/static/js/main.61cce342.js.map",
     "453.1d5681a5.chunk.js.map": "/trident/static/js/453.1d5681a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f15e96.css",
-    "static/js/main.6a7f4943.js"
+    "static/css/main.8ad142c7.css",
+    "static/js/main.61cce342.js"
   ]
 }
