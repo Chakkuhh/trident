@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    height: 200px; /* Set the fixed height of the footer */
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow the images to wrap in the footer */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the images vertically */
+  }
+  
+  .footer .images {
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-around; /* Space the images evenly */
+    align-items: center; /* Vertically center the images */
+    flex-wrap: wrap; /* Allow the images to wrap to new lines if necessary */
+  }
+  
+  img {
+    width: 100px; /* Set a specific width for each image */
+    height: 100%; /* Make the height stretch to fill the container's height */
+    object-fit: contain; /* Ensure the aspect ratio is maintained */
+    margin: 5px; /* Add some spacing between images */
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .footer {
+      grid-template-columns: 1fr; /* Stack content in a single column on smaller screens */
+    }
+  
+    .footer .images {
+      grid-template-columns: repeat(2, 1fr); /* 2 images per row on smaller screens */
+    }
+  
+    img {
+      max-width: 100%; /* Make images fill the available width */
+    }
+  }
+  

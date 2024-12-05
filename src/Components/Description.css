@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.text-container {
+    background: #00000000;
+    width: 100vw;
+    height: 70vh;
+    font-weight: bold;
+    font-size: 36px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-container > div {
+    animation: come2life linear 10s infinite;
+    transform-origin: center center;
+    opacity: 0;
+    width: 15vw; /* Responsive width */
+    height: 12vw; /* Responsive height */
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-container > div:nth-child(1) {
+    left: 20vw;
+    top: 20vh;
+    animation-delay: 0s;
+}
+
+.text-container > div:nth-child(2) {
+    left: 60vw;
+    top: 20vh;
+    animation-delay: 4s;
+}
+
+.text-container > div:nth-child(3) {
+    left: 50vw;
+    top: 50vh;
+    animation-delay: 8s;
+}
+
+.text-container > div:nth-child(4) {
+    left: 30vw;
+    top: 70vh;
+    animation-delay: 6s;
+}
+
+.text-container > div:nth-child(5) {
+    left: 70vw;
+    top: 70vh;
+    animation-delay: 2s;
+}
+
+@keyframes come2life {
+    0% {
+        transform: scale3d(0, 0, 1) rotate(0.02deg);
+        opacity: 0;
+        filter: blur(10px);
+    }
+    25% {
+        transform: scale3d(1, 1, 1) rotate(0.02deg);
+        opacity: 1;
+        filter: blur(0px);
+    }
+    40% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        transform: scale3d(4, 4, 1) rotate(0.02deg);
+        filter: blur(10px);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .text-container {
+        height: 60vh;
+    }
+    .text-container > div {
+        width: 20vw;
+        height: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        height: 50vh;
+        font-size: 28px;
+    }
+    .text-container > div {
+        width: 25vw;
+        height: 20vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-container {
+        height: 40vh;
+        font-size: 20px;
+    }
+    .text-container > div {
+        width: 30vw;
+        height: 25vw;
+    }
+    .text-container > div:nth-child(1) {
+        left: 10vw;
+        top: 10vh;
+    }
+    .text-container > div:nth-child(2) {
+        left: 50vw;
+        top: 10vh;
+    }
+    .text-container > div:nth-child(3) {
+        left: 40vw;
+        top: 30vh;
+    }
+    .text-container > div:nth-child(4) {
+        left: 20vw;
+        top: 50vh;
+    }
+    .text-container > div:nth-child(5) {
+        left: 60vw;
+        top: 50vh;
+    }
+}
