@@ -36,9 +36,10 @@ ul li {
 }
 
 ul li a {
+  font-size: small;
   text-decoration: none;
   color: #8291A5;
-  padding: 8px 30px;
+  padding: 8px 10px;
   border-radius: 7px;
   transition: all 0.3s ease;
 }
@@ -102,7 +103,8 @@ ul li a.active {
   }
 
   ul li a {
-    padding: 10px 20px;
+
+    padding: 8px 8px;
     display: block;
   }
 
