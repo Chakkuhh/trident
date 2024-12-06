@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/trident/static/css/main.8ad142c7.css",
-    "main.js": "/trident/static/js/main.61cce342.js",
+    "main.css": "/trident/static/css/main.39074728.css",
+    "main.js": "/trident/static/js/main.c5ff1d46.js",
     "static/js/453.1d5681a5.chunk.js": "/trident/static/js/453.1d5681a5.chunk.js",
     "static/media/modern.jpg": "/trident/static/media/modern.0205a1aa6e7214f33e93.jpg",
+    "static/media/care.jpg": "/trident/static/media/care.5268c12fbcc3fa39ddd7.jpg",
+    "static/media/engineer.jpg": "/trident/static/media/engineer.801643daff9872a8cd70.jpg",
     "static/media/construction.jpg": "/trident/static/media/construction.b8bd34ac88df084ac1e6.jpg",
     "static/media/kj.png": "/trident/static/media/kj.9efa8a325e0fedbf0cc8.png",
     "static/media/chain.jpg": "/trident/static/media/chain.0026c75fa17ff632f3f7.jpg",
     "static/media/architecture.jpg": "/trident/static/media/architecture.c538b65ccdb2a9e7adc8.jpg",
+    "static/media/service.jpeg": "/trident/static/media/service.55d7a3762ab84323db0c.jpeg",
     "static/media/Guiness.jpg": "/trident/static/media/Guiness.8806d3b66105731e73f6.jpg",
     "static/media/aquaba.jpg": "/trident/static/media/aquaba.4aad27020aa10b769490.jpg",
     "static/media/national.jpg": "/trident/static/media/national.87a9dcefb37ac0c9be1c.jpg",
@@ -16,14 +19,15 @@
     "static/media/abc.png": "/trident/static/media/abc.223cf4ab203a67810693.png",
     "static/media/reuters.png": "/trident/static/media/reuters.01cb632c89760b839d43.png",
     "static/media/gulfnews.png": "/trident/static/media/gulfnews.aba997270fc0f92cca4d.png",
+    "static/media/stately.jpg": "/trident/static/media/stately.81a9f7cbd32f02dc1966.jpg",
     "static/media/bbc.png": "/trident/static/media/bbc.98c705bad5417a17ac2d.png",
     "index.html": "/trident/index.html",
-    "main.8ad142c7.css.map": "/trident/static/css/main.8ad142c7.css.map",
-    "main.61cce342.js.map": "/trident/static/js/main.61cce342.js.map",
+    "main.39074728.css.map": "/trident/static/css/main.39074728.css.map",
+    "main.c5ff1d46.js.map": "/trident/static/js/main.c5ff1d46.js.map",
     "453.1d5681a5.chunk.js.map": "/trident/static/js/453.1d5681a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ad142c7.css",
-    "static/js/main.61cce342.js"
+    "static/css/main.39074728.css",
+    "static/js/main.c5ff1d46.js"
   ]
 }
