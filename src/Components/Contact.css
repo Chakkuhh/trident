@@ -1,0 +1,182 @@
+/* General Styling */
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+.connect h2 {
+    font-size: 2rem;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.connect p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Flex Container for Details and Datas */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.details, .datas {
+    padding: 20px;
+    margin: 10px;
+    background: #f2f2f4;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%;
+    width: 75%;
+}
+
+/* Details Styling */
+.details h3 {
+    font-size: 1.3rem;
+    color: #2b2b2b;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.details p {
+    font-size: 1rem;
+    color: #555;
+    margin: 3px 0;
+}
+
+/* Datas Section Styling */
+.datas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.datas input, .datas textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Textarea Adjustment */
+.datas textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Input Focus Effect */
+.datas input:focus, 
+.datas textarea:focus {
+    border-color: #4b8cfb;
+    box-shadow: 0 0 5px rgba(75, 140, 251, 0.5);
+}
+
+/* Button Styling */
+.datas button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4b8cfb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.datas button:hover {
+    background-color: #357ae8;
+    transform: translateY(-2px);
+}
+
+.datas button:active {
+    background-color: #306bcc;
+    transform: translateY(1px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .details, .datas {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Cursor */
+.cursor{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 5s steps(50) 1s 1 normal both, 
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blinkingCursor{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+/* Global */

@@ -13,7 +13,7 @@ function Banner() {
     // Automatically change the slide every 2 seconds
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % 4); // Change to the next slide, loop back to the first slide after the last one
-    }, 2000); // 2000ms = 2 seconds
+    }, 3000); // 2000ms = 2 seconds
 
     return () => clearInterval(interval); // Clean up the interval when the component unmounts
   }, []);

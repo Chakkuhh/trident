@@ -9,6 +9,7 @@ import Services from '../Components/Services'
 import Footer from '../Components/Footer'
 import Description from '../Components/Description'
 import '../../src/App.css'
+import Contact from '../Components/Contact'
 
 function HomePage() {
   return (
@@ -19,8 +20,10 @@ function HomePage() {
         <About/>
         {/* <Clients/>
         <Vission/>
-        <Testimonial/>
+        
         <Services/> */}
+        {/* <Testimonial/> */}
+        <Contact/>
         <Footer/>
     </div>
   )
